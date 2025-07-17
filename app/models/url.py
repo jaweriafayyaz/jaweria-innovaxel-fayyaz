@@ -34,4 +34,4 @@ class URL(db.Model):
             short_code = ''.join(random.choice(characters) for _ in range(length))
             # Check if code already exists
             if not URL.query.filter_by(short_code=short_code).first():
-                return short_code
+                return short_code"# Updated URL model" 
