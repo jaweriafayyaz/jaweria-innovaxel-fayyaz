@@ -4,7 +4,7 @@ from app import db  # Database instance
 from app.models.url import URL  # URL model for database operations
 from app.utils.validators import validate_url  # URL validation utility
 
-# Create a Blueprint for organizing API routes
+# Create a Blueprint for organizing API Routes
 # This allows us to group related routes and register them with the main app
 api_bp = Blueprint('api', __name__)
 
