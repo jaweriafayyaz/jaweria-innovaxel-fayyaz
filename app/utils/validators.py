@@ -1,5 +1,5 @@
-# Import required modules for URL validation
-import re  # Regular expressions for pattern matching
+# Import required modules for URL validation                                                                                                                                         
+import re  # Regular Expressions for pattern matching
 from urllib.parse import urlparse  # Built-in URL parsing utilities
 
 def validate_url(url):
