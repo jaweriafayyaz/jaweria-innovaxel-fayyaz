@@ -14,7 +14,7 @@ def create_short_url():
     Create a new short URL - POST /shorten
     
     This endpoint accepts a JSON payload with a 'url' field and creates
-    a shortened version. It validates the URL format, checks for duplicates,
+shortened version. It validates the URL format, checks for duplicates,
     generates a unique short code, and stores the mapping in the database.
     
     Request Body:
@@ -24,8 +24,8 @@ def create_short_url():
     
     Returns:
         201 Created: Successfully created short URL with full URL data
-        400 Bad Request: Invalid or missing URL
-        500 Internal Server Error: Database or server error
+        400 Bad Request: Invalid or Missing URL
+        500 Internal Server Error: Database or Server error
     """
     try:
         # Extract JSON data from the request body
